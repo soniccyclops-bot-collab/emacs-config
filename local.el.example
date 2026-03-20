@@ -1,0 +1,29 @@
+;; local.el --- Machine-specific configuration
+;;; Commentary:
+;; Put machine-specific settings here
+;; This file is gitignored and won't be committed
+
+;;; Example settings:
+
+;; Personal information
+;; (setq user-full-name "Nathan"
+;;       user-mail-address "nathan@example.com")
+
+;; Custom project directories  
+;; (setq projectile-project-search-path '("~/code-projects/" "~/work/"))
+
+;; Theme preference
+;; (load-theme 'doom-gruvbox t)
+
+;; Custom keybindings
+;; (global-set-key (kbd "C-c x") 'my-custom-function)
+
+;; Language-specific settings
+;; (setq python-shell-interpreter "python3.9"
+;;       inferior-lisp-program "ccl")
+
+;; Performance tweaks for slower machines
+;; (setq lsp-idle-delay 0.8
+;;       company-idle-delay 0.4)
+
+;;; local.el ends here
